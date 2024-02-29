@@ -1,0 +1,4 @@
+.header {
+    padding: 21px 0 93px 0;
+    @include bg ("../img/header/bg.jpeg", center, center, cover);
+}

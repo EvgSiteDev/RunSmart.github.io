@@ -1,0 +1,60 @@
+.header-top {
+    margin-bottom: 91px;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        display: inline-block;
+
+    }
+
+    &__logo-img {
+        width: 251px;
+        height: 45px;
+    }
+
+    &__descr {
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    }
+
+    &__topLine {
+    margin-bottom: 7px;
+    font-size: 12px;
+    line-height: 12px;
+    }
+
+    &__bottLine {
+    font-size: 18px;
+    line-height: 29px;
+    }
+
+    &__telAndBtn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+    }
+
+    &__tel {
+        display: block;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: right;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 4px;
+    }
+
+    &__button {
+        min-width: 153px;
+        min-height: 32px;
+        flex: 0 0;
+    }
+}
