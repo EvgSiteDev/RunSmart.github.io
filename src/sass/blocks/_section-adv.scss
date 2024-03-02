@@ -1,0 +1,19 @@
+.section-adv {
+    padding: 72px 0 65px 0 ;
+    background-color: rgb(246, 246, 246);
+
+    &__heading {
+        margin-bottom: 60px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+ 
+}
+
+
+

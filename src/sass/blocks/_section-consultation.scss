@@ -1,0 +1,35 @@
+.section-consultatinon {
+    @include bg ('../img/sec-consultation/bg.jpeg', center, center, cover); 
+    padding: 101px 0 108px 0;
+
+    &__heading {
+        max-width: 799px;
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0px;
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: 9px;
+
+    }
+
+    &__descr {
+        max-width: 426px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 36px;
+    }
+
+    &__form-container {
+        width: 303px;
+        margin-right: auto;
+    }
+}
+
+

@@ -9,4 +9,8 @@
     line-height: 19px;
     letter-spacing: 0px;
     color: white;
+    transition: .3s all;
+    &:hover{
+        background-color: #a10101;
+        box-shadow: -13px 18px 41px -3px rgba(34, 60, 80, 0.2);    }
 }

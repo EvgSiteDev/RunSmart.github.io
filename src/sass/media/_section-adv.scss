@@ -1,0 +1,26 @@
+@media (max-width:991px) {
+
+    .section-adv {
+        &__card-adv {
+            &:not(:last-child) {
+                margin-bottom: 60px;
+
+            }
+        }
+    }
+}
+@media (max-width:767px) {
+    .section-adv {
+        &__content {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width:575px) {
+    .section-adv {
+        &__heading{
+            font-size: 24px;
+        }
+    }
+}
